@@ -1,0 +1,8 @@
+defaults:
+  classActions:
+    - CREATE
+    - READ
+  type: Void
+  parameters:
+    lowerValue: "0"
+    upperValue: "1"

@@ -1,0 +1,9 @@
+namespace:
+  iri: "http://apigeneration.tech/vocabulary/library#"
+  ns: "library"
+typeMap:
+  "Boolean": "xsd:boolean"
+  "DateTime": "xsd:datetime"
+  "Float": "xsd:decimal"
+  "Int": "xsd:integer"
+  "String": "xsd:string"

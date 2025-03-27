@@ -1,0 +1,6 @@
+
+schema: "https://json-schema.org/draft/2020-12/schema"
+baseURI: "https://apigeneration.tech/schemas/library"
+specFileType: "json"
+specializationStyle: INHERITANCE_ALL_OF # Choice between: COMPOSITION, INHERITANCE_INCLUDE, INHERITANCE_ALL_OF
+
