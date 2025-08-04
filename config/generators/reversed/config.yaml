@@ -1,0 +1,10 @@
+schema: "https://json-schema.org/draft/2020-12/schema"
+baseURI: "${MTT_SERVER_URL}/generated/schemas/reversed"
+specializationStyle: INHERITANCE_ALL_OF # Choice between: COMPOSITION, INHERITANCE_INCLUDE, INHERITANCE_ALL_OF
+contentType: "application/schema+json"
+fileType: "schema.json"
+dependencies:
+  "Base Type":
+    modelFileUrl: "file:/reversed-generator/generated/mtt-models/reversed-generator.json"
+    version: "1.0.0"
+

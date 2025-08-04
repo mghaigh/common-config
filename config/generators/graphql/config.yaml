@@ -1,0 +1,22 @@
+# specDirName: "generated/specs/graphql" # This path is relative to the basePath
+filePostfix: "-schema"
+fileType: "graphql"
+contentType: ""
+classActionMap:
+  CREATE:
+    schemaNamePostfix: "Input"
+    operationNamePrefix: "create"
+    operationType: "Mutation"
+  READ:
+    schemaNamePostfix: ""
+    operationNamePrefix: ""
+    operationType: "Query"
+  UPDATE:
+    schemaNamePostfix: "Input"
+    operationNamePrefix: "update"
+    operationType: "Mutation"
+  DELETE:
+    schemaNamePostfix: ""
+    operationNamePrefix: "delete"
+    operationType: "Mutation"
+generateRelayTypes: false

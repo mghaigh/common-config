@@ -1,0 +1,18 @@
+templatesSubDir: "aoco"  # Relative to the dir defined in the MTT_TEMPLATES environment variable.
+fileType: "mfd"
+typeMap:
+  "Boolean": "bool"
+  "Date": "timestamp"
+  "DateTime": "timestamp"
+  "Duration": "duration"
+  "Float": "real"
+  "Int": "int32"
+  "Long": "int64"
+  "String": "string"
+  "Token": "token"
+  "URI": "uri"
+baseTypeName: "MFBase"
+dependencies:
+  "Base Type":
+    modelFileUrl: "file:/aoco-generator/generated/mtt-models/mf-base.json"
+    version: "1.0.0"
