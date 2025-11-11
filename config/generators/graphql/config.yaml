@@ -1,7 +1,5 @@
 outputSubDir: "specs/graphql" # This path is relative to the basePath
 filePostfix: "-schema"
-fileType: "graphql"
-contentType: ""
 classActionMap:
   CREATE:
     schemaNamePostfix: "Input"
@@ -20,4 +18,5 @@ classActionMap:
     operationNamePrefix: "delete"
     operationType: "Mutation"
 generateRelayTypes: false
+
 
