@@ -1,4 +1,4 @@
-# specDirName: "generated/specs/graphql" # This path is relative to the basePath
+outputSubDir: "specs/graphql" # This path is relative to the basePath
 filePostfix: "-schema"
 fileType: "graphql"
 contentType: ""
@@ -20,3 +20,4 @@ classActionMap:
     operationNamePrefix: "delete"
     operationType: "Mutation"
 generateRelayTypes: false
+
