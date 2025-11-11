@@ -1,3 +1,4 @@
+outputSubDir: "mtt-models"
 defaults:
   classActions:
     - CREATE
@@ -6,3 +7,4 @@ defaults:
   parameters:
     lowerValue: "0"
     upperValue: "1"
+
