@@ -1,3 +1,4 @@
+outputSubDir: "specs/oml"
 namespace:
   iri: "http://apigeneration.tech/vocabulary/library#"
   ns: "library"
@@ -7,3 +8,4 @@ typeMap:
   "Float": "xsd:decimal"
   "Int": "xsd:integer"
   "String": "xsd:string"
+
