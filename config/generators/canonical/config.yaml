@@ -1,0 +1,11 @@
+outputSubDir: "specs/canonical"
+#dependencies:
+#  "Base Type":
+#    modelFileUrl: "file:/reversed-generator/generated/mtt-models/reversed-generator.json"
+#    version: "1.0.0"
+schema: "http://json-schema.org/draft-07/schema#"
+idBase: "https://telicent.io"
+copyright: "Copyright © 2026 Telicent Ltd"
+specializationStyle: COMPOSITION # Choice between: COMPOSITION, INHERITANCE_INCLUDE, INHERITANCE_ALL_OF
+schemaStyle: EMBEDDED # Choice between: EMBEDDED, BY_REF
+contentType: "application/schema+json"
