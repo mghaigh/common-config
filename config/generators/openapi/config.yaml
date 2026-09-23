@@ -4,6 +4,7 @@ httpStatusCodeFileName: "config/generators/openapi/http-status-codes.csv"
 # strategy: DEFINED_TYPES
 # strategy: NAMED_OPERATIONS
 inheritanceStyle: COMPOSITION
+schemaStyle: BY_REF # Choice between: EMBEDDED, BY_REF
 classActionMap:
   CREATE:
     schemaNamePostfix: "Input"
