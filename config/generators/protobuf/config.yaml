@@ -1,0 +1,5 @@
+outputSubDir: "specs/protobuf"
+syntax: proto3
+specializationStyle: COMPOSITION
+schemaStyle: BY_REF # Choice between: EMBEDDED, BY_REF
+
